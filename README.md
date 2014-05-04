@@ -23,15 +23,15 @@ Bigflow流程调度管理产品由后台流程调度服务程序和前端流程�
 win安装服务端
 	
 	  * 安装mysql
-    * 解压 bigflow-server-$VERSION.rar
-    * 把bigflow-server下db目录下的表导入mysql
-    * 修改conf/bigflow_server.properties文件中mysql和jms配置
-    * cd bigflow-server-$VERSION/bat
-    * runConsole.bat运行服务端
-    * installService.bat安装服务
-    * startService.bat启动服务
-    * stopService.bat停止服务
-    * uninstallService.bat卸载服务
+    	  * 解压 bigflow-server-$VERSION.rar
+    	  * 把bigflow-server下db目录下的表导入mysql
+    	  * 修改conf/bigflow_server.properties文件中mysql和jms配置
+    	  * cd bigflow-server-$VERSION/bat
+    	  * runConsole.bat运行服务端
+    	  * installService.bat安装服务
+    	  * startService.bat启动服务
+    	  * stopService.bat停止服务
+    	  * uninstallService.bat卸载服务
 
 注意: 启动后可在win的系统托盘上起、停等管理服务.
 
